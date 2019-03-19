@@ -15,7 +15,7 @@
 		4D18980E224080E00089A8F4 /* Duwabili.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Duwabili.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D189811224080E00089A8F4 /* Duwabili.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Duwabili.h; sourceTree = "<group>"; };
 		4D189812224080E00089A8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D189819224082750089A8F4 /* Enclave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Enclave.swift; path = Duwabili/Enclave.swift; sourceTree = "<group>"; };
+		4D189819224082750089A8F4 /* Enclave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enclave.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +32,6 @@
 		4D189804224080E00089A8F4 = {
 			isa = PBXGroup;
 			children = (
-				4D189819224082750089A8F4 /* Enclave.swift */,
 				4D189810224080E00089A8F4 /* Duwabili */,
 				4D18980F224080E00089A8F4 /* Products */,
 			);
@@ -49,6 +48,7 @@
 		4D189810224080E00089A8F4 /* Duwabili */ = {
 			isa = PBXGroup;
 			children = (
+				4D189819224082750089A8F4 /* Enclave.swift */,
 				4D189811224080E00089A8F4 /* Duwabili.h */,
 				4D189812224080E00089A8F4 /* Info.plist */,
 			);
