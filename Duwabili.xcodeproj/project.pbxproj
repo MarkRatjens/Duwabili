@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4D189813224080E00089A8F4 /* Duwabili.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D189811224080E00089A8F4 /* Duwabili.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D18981A224082750089A8F4 /* Enclave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D189819224082750089A8F4 /* Enclave.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D18980E224080E00089A8F4 /* Duwabili.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Duwabili.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D189811224080E00089A8F4 /* Duwabili.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Duwabili.h; sourceTree = "<group>"; };
 		4D189812224080E00089A8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D189819224082750089A8F4 /* Enclave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Enclave.swift; path = Duwabili/Enclave.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +32,7 @@
 		4D189804224080E00089A8F4 = {
 			isa = PBXGroup;
 			children = (
+				4D189819224082750089A8F4 /* Enclave.swift */,
 				4D189810224080E00089A8F4 /* Duwabili */,
 				4D18980F224080E00089A8F4 /* Products */,
 			);
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					4D18980D224080E00089A8F4 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D18981A224082750089A8F4 /* Enclave.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		4D189817224080E00089A8F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nyasa.Duwabili;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +293,7 @@
 		4D189818224080E00089A8F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
